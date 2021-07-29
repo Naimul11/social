@@ -1,0 +1,139 @@
+*{
+    font-family: 'Spartan', sans-serif;
+
+}
+body,
+.bg-img{
+    width: 100%;
+    height: 100%;
+}
+  /* ==============
+      ##background image
+     ============== */
+
+ body{
+    background: url(./images/bg-pattern-top-desktop.svg)  no-repeat;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+ }
+ .bg-img{
+    background: url(./images/bg-pattern-bottom-desktop.svg) 100% 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    
+}
+
+  /* ==============
+      ##Typography
+     ============== */
+
+.main{
+    width: 80%;
+    height: 90%;
+    padding-top: 8vh;
+    margin:auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: 35% 40%;
+    grid-column-gap:10vw;
+    color:hsl(300, 24%, 96%);
+    padding-bottom:10vh;
+}
+.bio{
+    font-size:1.2vw;
+  
+}
+.header{
+    color: hsl(300, 43%, 22%);
+    font-size:3vw; 
+    font-weight: 700;
+    padding-bottom:0.3em ;
+}
+.text{
+  color:hsl(303, 10%, 53%);
+}      
+
+.rating{
+    color: #f5bb1dea;
+    font-size:1.2vw;
+    }
+    .rating>div{
+        border-radius: 0.5rem;
+        padding:1vw;
+        background: hsl(300, 24%, 96%);
+        margin: 2vh;
+    }
+    .rating-second{
+        position: relative;
+        left: 3vw;
+    }
+    .rating-third{
+        position: relative;
+        left: 6vw;
+    }
+ span{                               /* rating text */
+    color: hsl(300, 43%, 22%);
+    font-size:1.2vw;
+    font-weight: 600;
+    padding-left:1vw ;
+}
+
+ /* ==============
+      ##comment
+     ============== */
+.comment{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30% 30%;
+    color:hsl(300, 1%, 85%);
+    grid-column-gap: 1.5vw;
+    text-align: center;
+}
+.name,
+.status{
+    position: relative;
+    top:-5vh;
+   
+}
+.name{
+    color:rgb(243, 231, 231);
+    font-size:1.3vw;
+    left:0;
+    }
+
+.status{
+    left: 3.5rem;
+    font-size:1.2vw;
+    color:hsl(331, 38%, 42%);
+}
+
+img{
+    border-radius: 50%;
+}
+div[class^=comment-]{
+    padding:1.5vw;
+    background: hsl(300, 43%, 22%);
+    font-size:1.1vw;
+    font-weight: 400;
+    border-radius: 4%;
+}
+.comment-second{
+    position: relative;
+    top: 1vw;
+}
+.comment-third{
+    position: relative;
+    top: 2vw;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
