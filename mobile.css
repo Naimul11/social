@@ -106,10 +106,10 @@ body,
     div[class^=comment-]{
         padding:5vw;
         background: hsl(300, 43%, 22%);
-        font-size:1.7rem;
+        font-size:1.4rem;
         font-weight: 400;
         border-radius: 1em;
-        height: 30vh;
+        height: 20rem;
     }
      @media screen and (max-width:500px) {
         
