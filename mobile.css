@@ -18,14 +18,7 @@ body,
     margin: 0;
 
  }
- .bg-img{
-    background: url(./images/bg-pattern-bottom-mobile.svg) 100% 100% no-repeat;
-    position: relative;
-    bottom: 0;
-    
-}
-
-
+ 
 .main{
     padding: 6vh;
     margin:auto;
