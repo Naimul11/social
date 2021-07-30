@@ -41,7 +41,7 @@ body,
     grid-template-columns: 35% 40%;
     grid-column-gap:10vw;
     color:hsl(300, 24%, 96%);
-    padding-bottom:5vh;
+    padding-bottom:2rem;
 }
 .bio{
     font-size:1.1vw;
